@@ -29,7 +29,7 @@ void Insert(struct Array *arr,int index, int x){
 }
 int main(){
     struct Array arr={{2,3,4,5,6},20,5};
-    Insert(&arr,0,10);
+    Insert(&arr,2,10);
     Display(arr);
     return 0;
 }
