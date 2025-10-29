@@ -14,12 +14,13 @@ int main(){
 
     int length=0,breadth=0;
 
-    printf("Enter two Numbers : ");
-    cin>>length>>breadth;
+    cout << "Enter two Numbers : " << flush;  // flush ensures prompt appears
+    cin >> length >> breadth;
+    cout << "Input received: " << length << " " << breadth << endl;
 
     int a=area(length,breadth);
     int par=parameter(length,breadth);
 
-    printf("Area is %d\n Paramiter is %d",a,par);
+    cout << "Area is " << a << endl << "Parameter is " << par << endl;
     return 0;
 }
