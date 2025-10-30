@@ -26,8 +26,6 @@ void fun(struct test t1){
 
     for(int i=0;i<5;i++)
     t1.A[i]=i+2;
-    
-
 
     for(int i=0;i<5;i++)
     cout<<t1.A[i]<<endl;
