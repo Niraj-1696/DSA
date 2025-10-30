@@ -25,8 +25,7 @@ int main(){
     struct rectangle r={0,0};
     int l,b;
     cout<<"Enter the numbers :"<<endl;
-    cin>>l;
-    cin>>b;
+    cin>>l;    cin>>b;
 
     initialize(&r,l,b);
 
