@@ -13,7 +13,6 @@ int main(){
     fun(n);
     cout<<fun(n)<<endl;
     cout<<"Sencond time "<<fun(n)<<endl;
-
     return 0;
 }
 
